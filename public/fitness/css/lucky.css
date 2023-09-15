@@ -1,0 +1,139 @@
+.coach-info-wrapper{
+    width: 100%;
+    margin-top: 50px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.coach-info-wrapper :is(.wrapper-type-1, .wrapper-type-2){
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    min-height: 40rem;
+}
+.coach-info-wrapper .wrapper-type-1 .col-lg-6{
+    padding: 40px;
+    border: 1px solid #cfcfcf;
+    z-index: 1;
+}
+.coach-info-wrapper .wrapper-type-1 .col-lg-4{
+    position: relative;
+}
+.coach-info-wrapper .wrapper-type-1 .col-lg-4 .coach-image{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    bottom: 20px;
+    z-index: 2;
+    left: -20px;
+}
+
+
+.coach-info-wrapper .wrapper-type-2 .col-lg-6{
+    padding: 40px;
+    border: 1px solid #cfcfcf;
+}
+.coach-info-wrapper .wrapper-type-2 .col-lg-4{
+    position: relative;
+}
+.coach-info-wrapper .wrapper-type-2 .col-lg-4 .coach-image{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    bottom: 20px;
+    z-index: 2;
+    left: -20px;
+}
+#inputSearch{
+    box-shadow: 0 0 10px #cfcfcf;
+    border-radius: 2rem;
+    padding: 15px;
+    border: 1px solid #cfcfcf;
+    outline: none;
+    width: 500px;
+    max-width: 100%;
+}
+.icon-search{
+    position: absolute;
+    top: 15px;
+    right: 40px;
+    font-size: 24px;
+}
+.wa-icon {
+    width: 55px;
+    height: 55px;
+    background: none;
+    border: none;
+    outline: none;
+    position: fixed;
+    bottom: 70px;
+    right: 15px;
+    cursor: pointer;
+}
+.wa-icon:focus{
+    outline: none;
+}
+.wa-icon img{
+    width: 100%;
+    object-fit: contain;
+}
+#scroll-top{
+    transform: scale(0.8);
+}
+.coachBox .card{
+    width: 16rem;
+    height: 100%;
+}
+@media only screen and (max-width: 640px){
+    .coachBox .card{
+        width: 9rem;
+        height: 100%;
+    }
+}
+@media only screen and (max-width: 912px) {
+    .coach-info-wrapper .wrapper-type-2{
+        flex-direction: column-reverse;
+    }
+    .coach-info-wrapper .wrapper-type-2 .col-lg-6{
+        padding: 10px;
+    }
+    .icon-search{
+        
+        right: 30px;
+       
+    }
+}
+@media only screen and (max-width: 912px) {
+    .coach-info-wrapper .wrapper-type-1 .col-lg-6{
+        padding: 10px;
+    }
+    .coach-info-wrapper .wrapper-type-1 .col-lg-4 .coach-image{
+        width: 100px;
+        height: 100px;
+        position: inherit;
+        left: -10px;
+    }
+    .coach-info-wrapper .wrapper-type-2 .col-lg-4 .coach-image{
+        width: 100px;
+        height: 100px;
+        position: inherit;
+        left: -10px;
+    }
+    .coach-info-wrapper :is(.wrapper-type-1, .wrapper-type-2){
+        width: 49%;
+        margin: 20px 0;
+    }
+    .coachBox h4{
+        height: 30px;
+        overflow: hidden;
+        width: 100%;
+        margin: 0;
+    }
+    
+}

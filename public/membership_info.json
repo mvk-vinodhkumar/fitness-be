@@ -1,0 +1,52 @@
+{
+    "memInfo": [
+        {
+            "id": 1,
+            "modalTitle": "3 Months Plan",
+            "intro_para": "Our 3 month Plan is a short period to work with, for you to get the feel of a plan & routine. It’s a great place to start but we recommend a longer period of commitment for lasting results. Regardless, we will do our absolute best to get you the results you need.",
+            "desc_para": "You will have access to the questionnaire within four days of your start date. This questionnaire will help us understand you better and devise an effective routine to fit your schedule and goals. Modifications to the program will be made based on your progress."
+        },
+        {
+            "id": 2,
+            "modalTitle": "6 Months Plan",
+            "intro_para": "Our 6 month Plan is a great time frame for us to work with you. This will allow us the time to understand your individual characteristics and adapt your program as you progress.",
+            "desc_para": "You will have access to the questionnaire within four days of your start date. This questionnaire will help us understand you better and devise an effective routine to fit your schedule and goals. Modifications to the program will be made based on your progress."
+        },
+        {
+            "id": 3,
+            "modalTitle": "12 Months Plan",
+            "intro_para": "Our 12-month plan is the most ideal time frame to work with us to meet your fitness goals. We highly recommend this plan as long-lasting results depend on a great long term plan like this.",
+            "desc_para": "You will have access to the questionnaire within four days of your start date. This questionnaire will help us understand you better and devise an effective routine to fit your schedule and goals. Modifications to the program will be made based on your progress."
+        },
+        {
+            "id": 4,
+            "modalTitle": "3 Months Buddy Plan",
+            "intro_para": "Our 3 month Plan is a short period to work with, for you to get the feel of a plan routine. It’s a great place to start but we recommend a longer period of commitment for lasting results. Regardless, we will do our absolute best to get you the results you need.",
+            "desc_para": "You and your buddy will have access to the questionnaire within four days of your start date. This questionnaire will help us understand you better and devise an effective routine to fit your schedule and goals. Modifications to the program will be made based on your progress."
+        },
+        {
+            "id": 5,
+            "modalTitle": "6 Months Buddy Plan",
+            "intro_para": "Our 6 month Plan is a great time frame for us to work with you. This will allow us the time to understand your individual characteristics and adapt your program as you progress.",
+            "desc_para": "You and your buddy will have access to the questionnaire within four days of your start date. This questionnaire will help us understand you better and devise an effective routine to fit your schedule and goals. Modifications to the program will be made based on your progress."
+        },
+        {
+            "id": 6,
+            "modalTitle": "Live Workout Plan",
+            "intro_para": "We conduct sessions at the following time slots:",
+            "desc_para": "7 am, 8 am, 9 am, 10 am, 6 pm and 8 pm. You will be emailed a questionnaire. This questionnaire will help us understand you better and devise an effective routine to fit you and your partner’s schedule and goals. Modifications to the program will be made based on your progress."
+        },
+        {
+            "id": 8,
+            "modalTitle": "Live Workout Plan",
+            "intro_para": "We conduct sessions at the following time slots:",
+            "desc_para": "7 am, 8 am, 9 am, 10 am, 6 pm and 8 pm."
+        },
+        {
+            "id": 7,
+            "modalTitle": "12 Months Buddy Plan",
+            "intro_para": "Our 12 month Plan is a great time frame for us to work with you. This will allow us the time to understand your individual characteristics and adapt your program as you progress.",
+            "desc_para": "You will have access to the questionnaire within four days of your start date. This questionnaire will help us understand you better and devise an effective routine to fit your schedule and goals. Modifications to the program will be made based on your progress."
+        }
+    ]
+}

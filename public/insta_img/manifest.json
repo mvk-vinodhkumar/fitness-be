@@ -1,0 +1,23 @@
+{
+  "background_color": "#ffffff",
+  "description": "At Liv Ezy our 24x7 available online personal trainers provide workout and nutrition plans to smash your goals. Sounds good? Let's get started now!!",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "Livezy",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "Livezy",
+  "start_url": "/",
+  "theme_color": "#ffffff",
+  "icons": [
+    {
+      "src": "images/3334x3879.png",
+      "type": "image/png",
+      "sizes": "3334x3879"
+    },
+    {
+      "src": "/favicon.ico",
+      "type": "image/x-icon"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+.sale-info-wrap {
+	margin-bottom: 25px;
+}
+.sale-info-wrap .s-info {
+	font-size: 1em;
+    margin-bottom: 5px;
+    color: #000 !important;
+}
+
+
+/*Count Down styles*/
+.timer-container .timer-head {
+	font-size: 1.05em;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: .05em;
+}
+.timer-container #timer-inner {
+	display: flex;
+}
+.timer-container #timer-inner .countdown-item {
+	margin-right: 25px;
+    background-color: #000;
+    border-radius: 5px;
+    padding: 10px;
+    color: #fff;
+    width: 90px;
+    border: 1px solid #D7AB53;
+}
+.timer-container #timer-inner .countdown-item:last-child {
+	margin-right: 0;
+}
+.timer-container #timer-inner .countdown-item .c-number {
+	display: block;
+	text-align: center;
+	font-size: 36px;
+    color: #fefefe;
+    line-height: 1;
+}
+.timer-container #timer-inner .countdown-item .c-text {
+	display: block;
+	font-size: 12px;
+    text-align: center;
+    line-height: 1.4;
+    text-transform: uppercase;
+}
+
+
+
+@media(max-width: 991.98px) {
+	.owl-carousel.home-slider .slider-item .slider-text .one-forth {
+		background: rgba(0, 0, 0, .75);
+	}
+
+	/*CountDown styles*/
+	.sale-info-wrap .s-info {
+		color: #fff !important;
+	}
+	.timer-container #timer-inner {
+		justify-content: center;
+	}
+	.timer-container .timer-head {
+		text-align: center;
+    	color: #fff;
+	}
+}
+
+@media(max-width: 767px) {
+	.sale-info-wrap .s-info {
+		color: #fff !important;
+    	font-size: .9em !important;
+    	text-align: left;
+	}
+	.timer-container #timer-inner .countdown-item .c-number {
+		font-size: 20px;
+		font-weight: 700;
+	    margin-bottom: 3px;	
+	}
+	.timer-container #timer-inner .countdown-item {
+		width: 61px;
+    	margin-right: 15px;
+		padding: 5px;
+	}
+	.timer-container #timer-inner .countdown-item .c-text {
+		font-size: 10px;
+	}
+}

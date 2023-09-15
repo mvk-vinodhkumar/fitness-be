@@ -1,0 +1,313 @@
+#succ-v2 {
+    padding-top: 110px;
+}
+
+.succ-wrap {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.succ-wrap .succ-item {
+    width: 31%;
+    height: 330px;
+    margin: 10px;
+    position: relative;
+}
+
+.succ-wrap .succ-item .succ-img {
+    width: 100%;
+    height: 100%;
+    /*background-image: url(../images/01_siva.jpeg);*/
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.succ-wrap .succ-item .succ-img-info {
+    position: absolute;
+    bottom: 0;
+    /*background: -webkit-linear-gradient(top, transparent 5%, rgba(0, 0, 0, 1) 150%);*/
+    background: #353535;
+    /*background: #007bff;*/
+    width: 100%;
+    height: 0;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    transition: all .3s;
+    z-index: -1;
+}
+
+.succ-wrap .succ-item .succ-img-info.show {
+    height: 80px;
+    z-index: 1;
+}
+
+.succ-wrap .succ-item .succ-img-info span.shorten {
+    margin-bottom: 0;
+    color: #fff;
+    padding: 5px 8px;
+    line-height: 1.5;
+    display: inline-block;
+    font-weight: 600;
+}
+
+.succ-wrap .succ-item .succ-img-info span.read_more {
+    cursor: pointer;
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+    font-weight: 800;
+    color: #fff;
+    display: none;
+    font-size: 15px;
+    /* background: #0062cc; */
+    padding: 0 8px;
+    border-radius: 4px;
+    display: none;
+}
+
+
+/*Modal Styles*/
+
+.testimonials-modal .modal-dialog {
+    margin-top: 100px;
+}
+
+.testimonials-modal .modal-header {
+    padding: .5rem 1rem;
+    background: rgba(244, 244, 244, .25);
+}
+
+.testimonials-modal .modal-title .cus-name {
+    color: #007bff;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: .02em;
+}
+
+.testimonials-modal .modal-title .cus-pos {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+}
+
+.testimonials-modal .content-wrap {
+    display: table;
+}
+
+.testimonials-modal .img-wrap {
+    width: 300px;
+    float: left;
+    margin-right: 15px;
+}
+
+.testimonials-modal .img-wrap>img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.testimonials-modal .usr-content {
+    display: table-cell;
+    vertical-align: middle;
+    color: #000;
+    font-size: 1.07em;
+}
+
+
+/*Footer*/
+
+body {
+    position: relative;
+    min-height: 100vh;
+}
+
+footer {
+    /*position: absolute;*/
+    bottom: -55px;
+    /*    bottom: 0;*/
+    width: 100%;
+    height: 55px;
+}
+
+
+/*pagination*/
+
+.stories-pagination {
+    display: flex;
+    padding-bottom: 25px;
+}
+
+.stories-pagination-inner {
+    margin: 0 auto;
+}
+
+.stories-pagination .pagination {
+    position: relative;
+    z-index: 999;
+}
+
+.stories-pagination .pagination li {
+    font-size: 15px;
+    line-height: 1.2;
+    border: 1px solid #ccc;
+    border-left: none;
+}
+
+.stories-pagination .pagination li.disabled,
+.stories-pagination .pagination li.active {
+    padding: 8px 12px;
+}
+
+.stories-pagination .pagination li.active {
+    background: #007bff;
+    color: #fff;
+    border-color: #007bff;
+}
+
+.stories-pagination .pagination li:first-child {
+    border-left: 1px solid #ccc;
+}
+
+.stories-pagination .pagination li a {
+    display: inline-block;
+    padding: 8px 12px;
+    color: #666;
+    transition: background .35s;
+}
+
+.stories-pagination .pagination li a:hover {
+    background: rgba(0, 0, 0, .05);
+}
+
+
+/*Testimonial Modal*/
+
+@media (min-width: 993px) {
+    .testimonials-modal .modal-dialog {
+        max-width: 75%;
+        margin: 6rem auto 1.75rem;
+    }
+}
+
+@media (max-width: 990px) {
+    .testimonials-modal .modal-dialog {
+        max-width: 100%;
+        width: 100%;
+        margin: 20px 10px auto 10px;
+    }
+    /*.succ-wrap .succ-item {
+    	width: 47%;
+    }*/
+    .succ-wrap {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    .succ-wrap .succ-item {
+        width: 47%;
+        height: 330px;
+        margin: 10px;
+        position: relative;
+    }
+    .succ-wrap .succ-item .succ-img {
+        width: 100%;
+        height: 100%;
+        /*background-image: url(../images/01_siva.jpeg);*/
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center center;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+    }
+    .succ-wrap .succ-item .succ-img-info {
+        position: absolute;
+        bottom: 0;
+        /*background: -webkit-linear-gradient(top, transparent 5%, rgba(0, 0, 0, 1) 150%);*/
+        background: #353535;
+        /*background: #007bff;*/
+        width: 100%;
+        height: 0;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+        transition: all .3s;
+        z-index: -1;
+    }
+    .succ-wrap .succ-item .succ-img-info.show {
+        height: 80px;
+        z-index: 1;
+    }
+    .succ-wrap .succ-item .succ-img-info span.shorten {
+        margin-bottom: 0;
+        color: #fff;
+        padding: 5px 8px;
+        line-height: 1.5;
+        display: inline-block;
+        font-weight: 600;
+    }
+    .succ-wrap .succ-item .succ-img-info span.read_more {
+        cursor: pointer;
+        position: absolute;
+        bottom: 0;
+        right: 10px;
+        font-weight: 800;
+        color: #fff;
+        display: none;
+        font-size: 15px;
+        /* background: #0062cc; */
+        padding: 0 8px;
+        border-radius: 4px;
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    .testimonials-modal .modal-dialog {
+        max-width: 95%;
+        margin: 10px 10px;
+    }
+    .succ-wrap .succ-item {
+        width: 100%;
+    }
+    .testimonials-modal .img-wrap {
+        float: none;
+        margin: 0 auto 10px;
+    }
+    .testimonials-modal .usr-content {
+        display: block;
+        color: #000;
+        font-size: .97em;
+        line-height: 1.65;
+    }
+    .succ-wrap .succ-item .succ-img-info span.shorten {
+        font-size: 15px;
+    }
+    footer {
+        bottom: unset;
+        height: unset;
+    }
+}
+
+@media (max-width: 350px) {
+    .succ-wrap .succ-item {
+        height: 277px;
+    }
+    .modal-body {
+        padding: 0 !important;
+    }
+    .testimonials-modal .usr-content {
+        display: block;
+        color: #000;
+        font-size: .97em;
+        line-height: 1.65;
+        padding: .5rem !important;
+    }
+    .testimonials-modal .img-wrap {
+        width: 280px;
+    }
+}

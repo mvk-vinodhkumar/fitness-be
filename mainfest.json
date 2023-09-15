@@ -1,0 +1,50 @@
+{
+    "short_name": "Liv Ezy",
+    "name": "Liv Ezy",
+    "icons": [
+      {
+        "src": "fitness/images/png2.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "/images/icons-512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "start_url": "/?source=pwa",
+    "background_color": "#3367D6",
+    "display": "fullscreen",
+    "scope": "/",
+    "theme_color": "#3367D6",
+    "shortcuts": [
+      {
+        "name": "Liv Ezy",
+        "short_name": "Liv Ezy",
+        "description": "Liv Ezy - A Community which helps you to achieve your fitness goal",
+        "url": "/",
+        "icons": [{ "src": "fitness/images/png2.png", "sizes": "192x192" }]
+      },
+      {
+        "name": "Liv Ezy",
+        "short_name": "Liv Ezy",
+        "description": "Liv Ezy - A Community which helps you to achieve your fitness goal",
+        "url": "/",
+        "icons": [{ "src": "fitness/images/png2.png", "sizes": "192x192" }]
+      }
+    ],
+    "description": "Liv Ezy - A Community which helps you to achieve your fitness goal",
+    "screenshots": [
+      {
+        "src": "fitness/images/png2.png",
+        "type": "image/png",
+        "sizes": "540x720"
+      },
+      {
+        "src": "fitness/images/png2.png",
+        "type": "image/jpg",
+        "sizes": "540x720"
+      }
+    ]
+  }
